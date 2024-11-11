@@ -6,10 +6,12 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "UGC- Autonomous Institution",
+          "Accredited by NAAC with 'A' Grade",
+          // "Recognised by UGC",
+          // "Approved by AICTE",
+          // "Affiliated to JNTU Kakinada",
+          // "Technology Business Incubation Center",
         ],
         autoStart: true,
         loop: true,

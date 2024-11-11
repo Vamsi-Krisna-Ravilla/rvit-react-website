@@ -1,0 +1,89 @@
+/* Home3.css */
+.placement-container {
+    padding: 1rem;
+    /* background: linear-gradient(135deg, #1a1a1a, #2d2d2d); */
+    background:transparent;
+    min-height: 0vh;
+    margin-bottom:-70px;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.header-section h1 {
+    color: #ffd700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.custom-carousel {
+    background-color: #ffffff;
+}
+
+.carousel-slide {
+    padding: 20px;
+}
+
+.carousel-slide img {
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.carousel .legend {
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 0;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.carousel .control-arrow {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transition: background 0.3s ease;
+}
+
+.carousel .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .placement-container {
+        padding: 1rem;
+    }
+
+    .header-section h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .carousel-slide img {
+        max-height: 300px;
+    }
+}

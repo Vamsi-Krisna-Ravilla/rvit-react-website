@@ -1,0 +1,217 @@
+.home-section {
+    position: relative;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 5vh 0; /* Use viewport height for padding */
+    color: white;
+    margin-top:-35px;
+  }
+  
+  .home-content {
+    position: relative;
+    z-index: 1;
+    margin-top: -5vh; /* Use viewport height for margin */
+  }
+  
+  .heading {
+    font-size: 2.6em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -1em;
+  }
+  
+  .subheading {
+    color: yellow;
+  }
+  
+  .main-name {
+    color: #64ffda;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .type-section {
+    padding: 0;
+    font-size: 0.8em;
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2em;
+    }
+  
+    .type-section {
+      text-align: left;
+      padding-left: 5vw;
+    }
+  
+    .pillars-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .college-info-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-top: -2em;
+  }
+  
+  .college-info-card:hover {
+    transform: translateY(-0.5em);
+  }
+  
+  .info-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ff6464;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  .title-icon {
+    font-size: 1.2em;
+  }
+  
+  .college-intro {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 2em;
+  }
+  
+  .pillars-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 2em 0;
+    height: 250px;
+  }
+  
+  .pillar {
+    width: 16%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0.5em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .pillar:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1em);
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-wrapper {
+    font-size: 50px;
+    color: orange;
+    margin-bottom: 0.5em;
+  }
+  
+  .pillar-title {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.3em;
+  }
+  
+  .pillar-description {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .vision-statement {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 2em;
+    color: #64ffda;
+  }
+  
+  .logo-container {
+    position: relative;
+    padding: 1em;
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(100, 255, 218, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  .wave {
+    animation: wave-animation 2.5s infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  .pillars-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+  }
+  
+  .pillar {
+    width: 16%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .pillar:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 768px) {
+    .pillars-container {
+      flex-direction: column;
+      align-items: center;
+      height: auto; /* Allow height to adjust based on content */
+    }
+  
+    .pillar {
+      width: 80%; /* Adjust width for better fit on mobile */
+      margin-bottom: 20px; /* Add space between pillars */
+    }
+  }
+  
