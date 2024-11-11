@@ -72,6 +72,7 @@ function Home() {
               <div className="logo-container">
                 <img
                   src="https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  // src="https://www.imghippo.com/i/rrWA7260tV.png"
                   alt="RVIT logo"
                   className="img-fluid"
                 />
@@ -81,7 +82,7 @@ function Home() {
         </Container>
       </Container>
       <Home3 />
-      <Home2 />
+      {/* <Home2 /> */}
       <Home4/>
       <Home5/>
     </section>
