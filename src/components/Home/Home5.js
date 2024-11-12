@@ -7,10 +7,7 @@ const Home5 = () => {
             {/* Programs Section */}
             <section className="programs-section">
                 <div className="container-fluid px-4" >
-                    <h1 className="section-title wow fadeIn" data-wow-delay=".3s" >
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Explore Our Programmes
-                    </h1>
+                <h1 className="section-title1 wow fadeIn" data-wow-delay=".3s" style={{ textAlign: "center" }}>Explore Our Programmes</h1>
 
                     <div className="row g-4">
                         {/* B.Tech */}
@@ -212,7 +209,7 @@ const Home5 = () => {
                                     entrepreneurial journey. From idea conception to market domination, we're here to help you translate
                                     your research into real-world ventures.
                                 </p>
-                                <a href="incubationcenter.php" className="btn incubation-btn">
+                                <a href="incubationcenter.php" className="incubation-btn1">
                                     <i className="fas fa-rocket me-2"></i>Discover Our Projects
                                 </a>
                             </div>

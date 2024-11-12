@@ -18,7 +18,7 @@
 .custom-nav .nav-link {
   color: yellow;
   transition: color 0.3s ease;
-  margin-right: 30px;
+  /* margin-right: 30px; */
   /* padding-right:20px; */
 }
 
@@ -69,3 +69,4 @@
     background-color: rgba(79, 172, 254, 0.2);
   }
 }
+

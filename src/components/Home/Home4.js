@@ -30,17 +30,13 @@ const Home4 = () => {
         <section className="news-section">
             <div className="container">
                 <div className="row">
-                    
                     <div className="col-lg-8 animate-slide">
-                                                
-                    <div className="news-carousel">
-                        <div className="section-header">
-                            <h2 className="section-title">
-                                <i className="fas fa-globe"></i> Latest News & Events
-                            </h2>
-                        </div>
-
-
+                        <div className="news-carousel">
+                            <div className="section-header">
+                                <h2 className="section-title">
+                                    <i className="fas fa-globe"></i> Latest News & Events
+                                </h2>
+                            </div>
                             <Slider {...settings}>
                                 <div className="news-card">
                                     <div className="news-image">
@@ -65,11 +61,12 @@ const Home4 = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 animate-slide">
-                        <div className="notice-board">
-                            <div className="notice-header">
-                                <h2 className="h4 mb-0">Notice Board</h2>
-                                <i className="fas fa-bell"></i>
+                    <div className="notice-header">
+                                <h2 className="h4 mb-0"><i className="fas fa-bell"></i>     NOTICE BOARD </h2>
+                                
                             </div>
+                        <div className="notice-board">
+                            
                             <div className="notice-content">
                                 <div className="notice-item">
                                     <a href="https://octopod.co.in/student/admission/8748779b6a851d4c78179320b21460f6" className="notice-link">
@@ -98,7 +95,7 @@ const Home4 = () => {
                                 <div className="notice-item">
                                     <a href="/patents" className="notice-link">
                                         <i className="fas fa-bullhorn notice-icon"></i>
-                                        <span>List of Patents possed by RVIT</span>
+                                        <span>List of Patents possessed by RVIT</span>
                                     </a>
                                 </div>
                             </div>
